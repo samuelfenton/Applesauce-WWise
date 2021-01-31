@@ -29,7 +29,7 @@
 					<ChildrenList>
 						<Action Name="" ID="{0C7975B0-F8C3-4B68-9924-B62436F4723C}" ShortID="7063952">
 							<PropertyList>
-								<Property Name="Delay" Type="Real64" Value="0.1">
+								<Property Name="Delay" Type="Real64" Value="0.2">
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{C80B8216-E92A-454F-B8C7-1C31B31393CA}">
