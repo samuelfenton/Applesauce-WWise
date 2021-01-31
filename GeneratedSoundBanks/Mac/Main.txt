@@ -44,7 +44,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	446973475	Creature Growl 4	Y:\Documents\GitHub\Applesauce-WWise\.cache\Mac\SFX\Creature Growl 4_10C4C929.wem		\Actor-Mixer Hierarchy\Enemy\Enemy_Growl\Creature Growl 4		509640
 	447125995	Creature Growl 5	Y:\Documents\GitHub\Applesauce-WWise\.cache\Mac\SFX\Creature Growl 5_10C4C929.wem		\Actor-Mixer Hierarchy\Enemy\Enemy_Growl\Creature Growl 5		960288
 	454244163	Water Run 8	Y:\Documents\GitHub\Applesauce-WWise\.cache\Mac\SFX\Puddle Run 8_10C4C929.wem		\Actor-Mixer Hierarchy\Footsteps\Speed\Run\Water\Water Run 8		51508
-	481327356	Enemy_Breathing	Y:\Documents\GitHub\Applesauce-WWise\.cache\Mac\SFX\Creature Idle - Breathing_10C4C929.wem		\Actor-Mixer Hierarchy\Enemy\Enemy_Breathing		6927780
+	481327356	Enemy_Breathing	Y:\Documents\GitHub\Applesauce-WWise\.cache\Mac\SFX\Creature Idle - Breathing_D79FB2B7.wem		\Actor-Mixer Hierarchy\Enemy\Enemy_Breathing		6927780
 	506083400	Creature Growl 1	Y:\Documents\GitHub\Applesauce-WWise\.cache\Mac\SFX\Creature Growl 1_10C4C929.wem		\Actor-Mixer Hierarchy\Enemy\Enemy_Growl\Creature Growl 1		499244
 	536827652	Water Walk 5	Y:\Documents\GitHub\Applesauce-WWise\.cache\Mac\SFX\Puddle Walk 5_10C4C929.wem		\Actor-Mixer Hierarchy\Footsteps\Speed\Walk\Water\Water Walk 5		60692
 	543595610	Stone Run 7	Y:\Documents\GitHub\Applesauce-WWise\.cache\Mac\SFX\Stone Run 7_10C4C929.wem		\Actor-Mixer Hierarchy\Footsteps\Speed\Run\Stone\Stone Run 7		58856

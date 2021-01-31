@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="2503600197">
+		<SoundBank Id="3161908922" Language="SFX" Hash="865318031">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -29,15 +29,15 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1031558144" Name="Enemy_Breathing" ObjectPath="\Events\Default Work Unit\Enemy\Enemy_Breathing" DurationType="OneShot" DurationMin="39.272766" DurationMax="39.272766">
+				<Event Id="1031558144" Name="Enemy_Breathing" ObjectPath="\Events\Default Work Unit\Enemy\Enemy_Breathing" MaxAttenuation="100.000000" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="481327356" Language="SFX">
 							<ShortName>Creature Idle - Breathing.wav</ShortName>
-							<Path>SFX/Creature Idle - Breathing_10C4C929.wem</Path>
+							<Path>SFX/Creature Idle - Breathing_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1513352309" Name="Enemy_Growl" ObjectPath="\Events\Default Work Unit\Enemy\Enemy_Growl" DurationType="Infinite">
+				<Event Id="1513352309" Name="Enemy_Growl" ObjectPath="\Events\Default Work Unit\Enemy\Enemy_Growl" MaxAttenuation="100.000000" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="217746939" Language="SFX">
 							<ShortName>Creature Growl 3.wav</ShortName>
