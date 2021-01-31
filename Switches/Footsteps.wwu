@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2DA94DE0-869B-4077-9ECA-F7DBD045C639}" SchemaVersion="97" RootDocumentID="{DC874D2E-A44D-43E2-87C8-ECC0FACF014C}">
+	<Switches>
+		<WorkUnit Name="Footsteps" ID="{2DA94DE0-869B-4077-9ECA-F7DBD045C639}" OwnerID="{DC874D2E-A44D-43E2-87C8-ECC0FACF014C}" PersistMode="Nested">
+			<ChildrenList>
+				<SwitchGroup Name="Terrain" ID="{6F404B92-6A66-4C04-8EC5-81D68318CBEB}">
+					<ChildrenList>
+						<Switch Name="Stone" ID="{55F257E5-4599-4BE7-A9A0-81BA15948DC2}"/>
+						<Switch Name="Water" ID="{4A908723-A50E-4B80-BA7C-EFD1AE0D5037}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Speed" ID="{C973770B-A138-4B56-AC4B-DDAB1DDF734B}">
+					<ChildrenList>
+						<Switch Name="Run" ID="{07321039-4680-41BB-A9BD-11387D7CD8DF}"/>
+						<Switch Name="Walk" ID="{FC1CE292-610F-4679-AEA7-4B77E3282524}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

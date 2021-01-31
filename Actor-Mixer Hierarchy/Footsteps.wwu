@@ -1,0 +1,887 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C3C7DD6A-9FE7-4EA9-B6FE-8924B116B192}" SchemaVersion="97">
+	<AudioObjects>
+		<WorkUnit Name="Footsteps" ID="{C3C7DD6A-9FE7-4EA9-B6FE-8924B116B192}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchContainer Name="Speed" ID="{D00B11E1-46AA-487F-AB3B-FEB4AF4DFBCA}" ShortID="752626691">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0195AC9F-1BB1-49FF-BE25-7B3624462179}"/>
+						</Reference>
+						<Reference Name="DefaultSwitchOrState">
+							<ObjectRef Name="Walk" ID="{FC1CE292-610F-4679-AEA7-4B77E3282524}" WorkUnitID="{2DA94DE0-869B-4077-9ECA-F7DBD045C639}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E12D561-1F56-4EFF-9FE3-2542145B65C9}"/>
+						</Reference>
+						<Reference Name="SwitchGroupOrStateGroup">
+							<ObjectRef Name="Speed" ID="{C973770B-A138-4B56-AC4B-DDAB1DDF734B}" WorkUnitID="{2DA94DE0-869B-4077-9ECA-F7DBD045C639}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SwitchContainer Name="Run" ID="{179A2B3C-520F-4368-9CDA-C99886D3CEA9}" ShortID="188902909">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0195AC9F-1BB1-49FF-BE25-7B3624462179}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Stone" ID="{55F257E5-4599-4BE7-A9A0-81BA15948DC2}" WorkUnitID="{2DA94DE0-869B-4077-9ECA-F7DBD045C639}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E12D561-1F56-4EFF-9FE3-2542145B65C9}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="Terrain" ID="{6F404B92-6A66-4C04-8EC5-81D68318CBEB}" WorkUnitID="{2DA94DE0-869B-4077-9ECA-F7DBD045C639}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Water" ID="{1249557D-6A7D-469E-AC01-09421A071C36}" ShortID="644659556">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0195AC9F-1BB1-49FF-BE25-7B3624462179}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E12D561-1F56-4EFF-9FE3-2542145B65C9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Water Run 1" ID="{36DDBFF0-73ED-41F8-9792-2921CDB866E0}" ShortID="605603762">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0195AC9F-1BB1-49FF-BE25-7B3624462179}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E12D561-1F56-4EFF-9FE3-2542145B65C9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Puddle Run 1" ID="{B66FBBA6-85ED-460E-8AB0-8F06E00CC193}">
+													<Language>SFX</Language>
+													<AudioFile>Puddle Run 1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="578745345"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Puddle Run 1" ID="{B66FBBA6-85ED-460E-8AB0-8F06E00CC193}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Water Run 2" ID="{6EE4D2AA-D0E6-4EFB-BC92-CFF8D60CC83D}" ShortID="962608922">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0195AC9F-1BB1-49FF-BE25-7B3624462179}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E12D561-1F56-4EFF-9FE3-2542145B65C9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Puddle Run 2" ID="{CE31F4DE-2D8C-41BF-A8BC-FEB9EBA81AF1}">
+													<Language>SFX</Language>
+													<AudioFile>Puddle Run 2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="411869344"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Puddle Run 2" ID="{CE31F4DE-2D8C-41BF-A8BC-FEB9EBA81AF1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Water Run 3" ID="{56F31578-3F17-4188-900B-4922A34D604B}" ShortID="1061925600">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0195AC9F-1BB1-49FF-BE25-7B3624462179}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E12D561-1F56-4EFF-9FE3-2542145B65C9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Puddle Run 3" ID="{FBFA0E5D-4D7F-457D-8B83-31A604B30589}">
+													<Language>SFX</Language>
+													<AudioFile>Puddle Run 3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="155955263"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Puddle Run 3" ID="{FBFA0E5D-4D7F-457D-8B83-31A604B30589}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Water Run 4" ID="{BFC2FE0B-835C-4F9F-88AE-E3BC29BDDF3E}" ShortID="335244097">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0195AC9F-1BB1-49FF-BE25-7B3624462179}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E12D561-1F56-4EFF-9FE3-2542145B65C9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Puddle Run 4" ID="{EF0B89F2-3E47-4580-9B44-A9E584311D03}">
+													<Language>SFX</Language>
+													<AudioFile>Puddle Run 4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="829172270"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Puddle Run 4" ID="{EF0B89F2-3E47-4580-9B44-A9E584311D03}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Water Run 5" ID="{83D437E5-E8A7-46EF-A7B6-45CC9E1ECF18}" ShortID="565107418">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0195AC9F-1BB1-49FF-BE25-7B3624462179}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E12D561-1F56-4EFF-9FE3-2542145B65C9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Puddle Run 5" ID="{2AD4DB25-ADF4-4D7F-877C-F0474B2A3C89}">
+													<Language>SFX</Language>
+													<AudioFile>Puddle Run 5.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="198949424"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Puddle Run 5" ID="{2AD4DB25-ADF4-4D7F-877C-F0474B2A3C89}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Water Run 6" ID="{56CC2FED-426E-4A5C-9567-B7B42DFBC544}" ShortID="806443289">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0195AC9F-1BB1-49FF-BE25-7B3624462179}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E12D561-1F56-4EFF-9FE3-2542145B65C9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Puddle Run 6" ID="{AE0591CD-3868-4B67-8B64-B171964FCAD8}">
+													<Language>SFX</Language>
+													<AudioFile>Puddle Run 6.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="698148170"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Puddle Run 6" ID="{AE0591CD-3868-4B67-8B64-B171964FCAD8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Water Run 7" ID="{9F75AF3C-F8FA-4020-AD4A-C64C7708E88A}" ShortID="1072638923">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0195AC9F-1BB1-49FF-BE25-7B3624462179}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E12D561-1F56-4EFF-9FE3-2542145B65C9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Puddle Run 7" ID="{ADA56DB6-760B-4ED7-A5EE-AC2B5C380666}">
+													<Language>SFX</Language>
+													<AudioFile>Puddle Run 7.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="886723126"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Puddle Run 7" ID="{ADA56DB6-760B-4ED7-A5EE-AC2B5C380666}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Water Run 8" ID="{EE51E7A3-5BF4-4093-8714-BCB7E2921808}" ShortID="656820383">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0195AC9F-1BB1-49FF-BE25-7B3624462179}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E12D561-1F56-4EFF-9FE3-2542145B65C9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Puddle Run 8" ID="{F62F7491-45E0-4444-BDE5-9391EFBFE7E8}">
+													<Language>SFX</Language>
+													<AudioFile>Puddle Run 8.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="454244163"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Puddle Run 8" ID="{F62F7491-45E0-4444-BDE5-9391EFBFE7E8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Stone" ID="{B74CC36E-B29E-445A-B70F-233B235FBCDB}" ShortID="18230645">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0195AC9F-1BB1-49FF-BE25-7B3624462179}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E12D561-1F56-4EFF-9FE3-2542145B65C9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Stone Run 1" ID="{24043D35-B2B5-447B-9C35-2932907E05C0}" ShortID="925731038">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0195AC9F-1BB1-49FF-BE25-7B3624462179}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E12D561-1F56-4EFF-9FE3-2542145B65C9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Stone Run 1" ID="{21D7C708-5C82-45C7-BD83-42388020DA21}">
+													<Language>SFX</Language>
+													<AudioFile>Stone Run 1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="833617942"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Stone Run 1" ID="{21D7C708-5C82-45C7-BD83-42388020DA21}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Stone Run 2" ID="{41CD8CDF-36C0-487B-8519-965745E5329B}" ShortID="844960503">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0195AC9F-1BB1-49FF-BE25-7B3624462179}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E12D561-1F56-4EFF-9FE3-2542145B65C9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Stone Run 2" ID="{45FBF061-AFE5-466E-8292-C25FB824B1F0}">
+													<Language>SFX</Language>
+													<AudioFile>Stone Run 2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="901167762"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Stone Run 2" ID="{45FBF061-AFE5-466E-8292-C25FB824B1F0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Stone Run 3" ID="{679396D2-3B0B-4FC3-8C9B-EF839C4062C4}" ShortID="324402738">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0195AC9F-1BB1-49FF-BE25-7B3624462179}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E12D561-1F56-4EFF-9FE3-2542145B65C9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Stone Run 3" ID="{CD2549CA-AB6A-4A4C-B601-BCD8F30E4423}">
+													<Language>SFX</Language>
+													<AudioFile>Stone Run 3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="671609706"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Stone Run 3" ID="{CD2549CA-AB6A-4A4C-B601-BCD8F30E4423}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Stone Run 4" ID="{C3B6CEDB-5E37-4FC0-AF0F-38FCE7058105}" ShortID="469827954">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0195AC9F-1BB1-49FF-BE25-7B3624462179}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E12D561-1F56-4EFF-9FE3-2542145B65C9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Stone Run 4" ID="{541DEA7A-BC96-4BAF-8FA4-47BBA18D7B81}">
+													<Language>SFX</Language>
+													<AudioFile>Stone Run 4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="216726931"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Stone Run 4" ID="{541DEA7A-BC96-4BAF-8FA4-47BBA18D7B81}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Stone Run 5" ID="{ECD46223-F8E6-4C6B-BECF-6B9571C6E6EE}" ShortID="1072946683">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0195AC9F-1BB1-49FF-BE25-7B3624462179}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E12D561-1F56-4EFF-9FE3-2542145B65C9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Stone Run 5" ID="{AA69EB14-3841-4327-B73E-60BE91FF6145}">
+													<Language>SFX</Language>
+													<AudioFile>Stone Run 5.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1011863194"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Stone Run 5" ID="{AA69EB14-3841-4327-B73E-60BE91FF6145}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Stone Run 6" ID="{8F5DFBE0-5FFF-4B2E-9E19-275C6CD6367C}" ShortID="943747351">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0195AC9F-1BB1-49FF-BE25-7B3624462179}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E12D561-1F56-4EFF-9FE3-2542145B65C9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Stone Run 6" ID="{693E80BD-4C28-4B35-AFF8-8FCA44374147}">
+													<Language>SFX</Language>
+													<AudioFile>Stone Run 6.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="141194102"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Stone Run 6" ID="{693E80BD-4C28-4B35-AFF8-8FCA44374147}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Stone Run 7" ID="{5EAED732-9C8D-4B6B-90C0-B8BA45D1FEAE}" ShortID="963605173">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0195AC9F-1BB1-49FF-BE25-7B3624462179}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E12D561-1F56-4EFF-9FE3-2542145B65C9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Stone Run 7" ID="{8B30605A-FCFE-4EC4-9866-361C580A9099}">
+													<Language>SFX</Language>
+													<AudioFile>Stone Run 7.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="543595610"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Stone Run 7" ID="{8B30605A-FCFE-4EC4-9866-361C580A9099}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Stone Run 8" ID="{A470D84B-80F8-4E08-863A-9526B40139E8}" ShortID="1054113760">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0195AC9F-1BB1-49FF-BE25-7B3624462179}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E12D561-1F56-4EFF-9FE3-2542145B65C9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Stone Run 8" ID="{9C122011-46F4-4D96-99BA-23D2E458809F}">
+													<Language>SFX</Language>
+													<AudioFile>Stone Run 8.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="136537730"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Stone Run 8" ID="{9C122011-46F4-4D96-99BA-23D2E458809F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="Stone" ID="{B74CC36E-B29E-445A-B70F-233B235FBCDB}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Water" ID="{1249557D-6A7D-469E-AC01-09421A071C36}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Water" ID="{4A908723-A50E-4B80-BA7C-EFD1AE0D5037}"/>
+										<ItemList>
+											<ItemRef Name="Water" ID="{1249557D-6A7D-469E-AC01-09421A071C36}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Stone" ID="{55F257E5-4599-4BE7-A9A0-81BA15948DC2}"/>
+										<ItemList>
+											<ItemRef Name="Stone" ID="{B74CC36E-B29E-445A-B70F-233B235FBCDB}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
+						<SwitchContainer Name="Walk" ID="{55ECDF4F-2B7E-465E-A58A-7E86FE83CAEE}" ShortID="349914697">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0195AC9F-1BB1-49FF-BE25-7B3624462179}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Stone" ID="{55F257E5-4599-4BE7-A9A0-81BA15948DC2}" WorkUnitID="{2DA94DE0-869B-4077-9ECA-F7DBD045C639}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E12D561-1F56-4EFF-9FE3-2542145B65C9}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="Terrain" ID="{6F404B92-6A66-4C04-8EC5-81D68318CBEB}" WorkUnitID="{2DA94DE0-869B-4077-9ECA-F7DBD045C639}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Water" ID="{7D8ED792-15B2-4800-9689-F596928D7408}" ShortID="438811583">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0195AC9F-1BB1-49FF-BE25-7B3624462179}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E12D561-1F56-4EFF-9FE3-2542145B65C9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Water Walk 1" ID="{069B1C57-C2AA-4895-AD7A-32A27BDD54F4}" ShortID="79657773">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0195AC9F-1BB1-49FF-BE25-7B3624462179}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E12D561-1F56-4EFF-9FE3-2542145B65C9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Puddle Walk 1" ID="{F944A2B9-0B23-40EB-B350-4001584640AF}">
+													<Language>SFX</Language>
+													<AudioFile>Puddle Walk 1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="876367959"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Puddle Walk 1" ID="{F944A2B9-0B23-40EB-B350-4001584640AF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Water Walk 2" ID="{35E5422C-DFC8-49E6-8E86-F47B39216B25}" ShortID="12709586">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0195AC9F-1BB1-49FF-BE25-7B3624462179}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E12D561-1F56-4EFF-9FE3-2542145B65C9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Puddle Walk 2" ID="{EE24A095-D36B-4762-9A73-C9CBA671770E}">
+													<Language>SFX</Language>
+													<AudioFile>Puddle Walk 2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="100016483"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Puddle Walk 2" ID="{EE24A095-D36B-4762-9A73-C9CBA671770E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Water Walk 3" ID="{703F997F-082D-436A-9700-4F7D59BDD3CF}" ShortID="639055767">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0195AC9F-1BB1-49FF-BE25-7B3624462179}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E12D561-1F56-4EFF-9FE3-2542145B65C9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Puddle Walk 3" ID="{3361A303-4293-4E31-935D-40F41A727990}">
+													<Language>SFX</Language>
+													<AudioFile>Puddle Walk 3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="705129001"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Puddle Walk 3" ID="{3361A303-4293-4E31-935D-40F41A727990}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Water Walk 4" ID="{31099D82-02A5-4B98-AD20-A1819E0C7A70}" ShortID="613051797">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0195AC9F-1BB1-49FF-BE25-7B3624462179}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E12D561-1F56-4EFF-9FE3-2542145B65C9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Puddle Walk 4" ID="{A24B8E2C-5B70-40AE-8831-7356C9CA2C19}">
+													<Language>SFX</Language>
+													<AudioFile>Puddle Walk 4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1012415975"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Puddle Walk 4" ID="{A24B8E2C-5B70-40AE-8831-7356C9CA2C19}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Water Walk 5" ID="{D19D25A8-D100-46BD-8F35-108C30ED2569}" ShortID="140301590">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0195AC9F-1BB1-49FF-BE25-7B3624462179}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E12D561-1F56-4EFF-9FE3-2542145B65C9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Puddle Walk 5" ID="{422CEFBD-5AD5-490C-B5C1-EDFF7E39BB92}">
+													<Language>SFX</Language>
+													<AudioFile>Puddle Walk 5.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="536827652"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Puddle Walk 5" ID="{422CEFBD-5AD5-490C-B5C1-EDFF7E39BB92}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Water Walk 6" ID="{E4E804D9-59A5-4F74-813F-FCC842A12FCB}" ShortID="742098285">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0195AC9F-1BB1-49FF-BE25-7B3624462179}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E12D561-1F56-4EFF-9FE3-2542145B65C9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Puddle Walk 6" ID="{1C1B0F43-5DBB-4797-BA38-8669504A5C90}">
+													<Language>SFX</Language>
+													<AudioFile>Puddle Walk 6.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="694235814"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Puddle Walk 6" ID="{1C1B0F43-5DBB-4797-BA38-8669504A5C90}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Water Walk 7" ID="{09E8653B-E479-439B-B842-C408C0A1CA2B}" ShortID="468917283">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0195AC9F-1BB1-49FF-BE25-7B3624462179}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E12D561-1F56-4EFF-9FE3-2542145B65C9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Puddle Walk 7" ID="{7A11BB30-9E2A-4F02-8946-874B37BA5F69}">
+													<Language>SFX</Language>
+													<AudioFile>Puddle Walk 7.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="797253055"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Puddle Walk 7" ID="{7A11BB30-9E2A-4F02-8946-874B37BA5F69}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Water Walk 8" ID="{1FAD5C12-9AF6-4CFA-B559-5BB426429B7A}" ShortID="862041405">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0195AC9F-1BB1-49FF-BE25-7B3624462179}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E12D561-1F56-4EFF-9FE3-2542145B65C9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Puddle Walk 8" ID="{7365D5C6-6910-4D16-A7BF-4B6023FE0ACF}">
+													<Language>SFX</Language>
+													<AudioFile>Puddle Walk 8.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="718312626"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Puddle Walk 8" ID="{7365D5C6-6910-4D16-A7BF-4B6023FE0ACF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Stone" ID="{2B8709D7-31ED-45B0-B37A-B5BAADF0C720}" ShortID="588635684">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0195AC9F-1BB1-49FF-BE25-7B3624462179}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E12D561-1F56-4EFF-9FE3-2542145B65C9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Stone Walk 1" ID="{7DD869F5-0634-4629-9902-96A81BE9DE92}" ShortID="290778373">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0195AC9F-1BB1-49FF-BE25-7B3624462179}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E12D561-1F56-4EFF-9FE3-2542145B65C9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Stone Walk 1" ID="{F3DF4F4C-BBE6-4C70-ABA3-2ECF2E12A752}">
+													<Language>SFX</Language>
+													<AudioFile>Stone Walk 1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="125929144"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Stone Walk 1" ID="{F3DF4F4C-BBE6-4C70-ABA3-2ECF2E12A752}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Stone Walk 2" ID="{46809445-0C14-4A11-AED7-9236274E79A0}" ShortID="276257479">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0195AC9F-1BB1-49FF-BE25-7B3624462179}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E12D561-1F56-4EFF-9FE3-2542145B65C9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Stone Walk 2" ID="{F0806BDE-036A-4A0E-B6E2-FFA8EAD9635C}">
+													<Language>SFX</Language>
+													<AudioFile>Stone Walk 2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="389754580"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Stone Walk 2" ID="{F0806BDE-036A-4A0E-B6E2-FFA8EAD9635C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Stone Walk 3" ID="{29209B67-FA78-46F5-82CC-C01BA811AA5D}" ShortID="699425738">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0195AC9F-1BB1-49FF-BE25-7B3624462179}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E12D561-1F56-4EFF-9FE3-2542145B65C9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Stone Walk 3" ID="{1F59D3FB-0F9E-4A92-A414-59D5DFC15FF8}">
+													<Language>SFX</Language>
+													<AudioFile>Stone Walk 3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="438460245"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Stone Walk 3" ID="{1F59D3FB-0F9E-4A92-A414-59D5DFC15FF8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Stone Walk 4" ID="{97BD15F0-3411-4FD2-8ACF-C8C432C42C11}" ShortID="908689014">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0195AC9F-1BB1-49FF-BE25-7B3624462179}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E12D561-1F56-4EFF-9FE3-2542145B65C9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Stone Walk 4" ID="{DEA379E3-C35A-47B2-83F5-CE6967887B9B}">
+													<Language>SFX</Language>
+													<AudioFile>Stone Walk 4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="331034854"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Stone Walk 4" ID="{DEA379E3-C35A-47B2-83F5-CE6967887B9B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Stone Walk 5" ID="{97F501D5-76F3-44D7-912D-671CB8860D77}" ShortID="403040525">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0195AC9F-1BB1-49FF-BE25-7B3624462179}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E12D561-1F56-4EFF-9FE3-2542145B65C9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Stone Walk 5" ID="{8D13D655-F551-4299-AEF0-EF4260C147D7}">
+													<Language>SFX</Language>
+													<AudioFile>Stone Walk 5.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="227760337"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Stone Walk 5" ID="{8D13D655-F551-4299-AEF0-EF4260C147D7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Stone Walk 6" ID="{39C8A916-6658-49A4-A082-02AB163D1919}" ShortID="258810767">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0195AC9F-1BB1-49FF-BE25-7B3624462179}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E12D561-1F56-4EFF-9FE3-2542145B65C9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Stone Walk 6" ID="{AF49F2C7-1DA0-4D03-A540-802B3874BD88}">
+													<Language>SFX</Language>
+													<AudioFile>Stone Walk 6.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1061577426"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Stone Walk 6" ID="{AF49F2C7-1DA0-4D03-A540-802B3874BD88}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Stone Walk 7" ID="{ECB38183-2DE2-4FF9-9488-E2452E9AFD42}" ShortID="1061296728">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0195AC9F-1BB1-49FF-BE25-7B3624462179}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E12D561-1F56-4EFF-9FE3-2542145B65C9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Stone Walk 7" ID="{028FE1A8-8F0F-423D-BCE1-5203B7406347}">
+													<Language>SFX</Language>
+													<AudioFile>Stone Walk 7.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="596820594"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Stone Walk 7" ID="{028FE1A8-8F0F-423D-BCE1-5203B7406347}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Stone Walk 8" ID="{8B27972D-F710-4E96-93D8-746F14B45500}" ShortID="570111149">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0195AC9F-1BB1-49FF-BE25-7B3624462179}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E12D561-1F56-4EFF-9FE3-2542145B65C9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Stone Walk 8" ID="{0CC8B6D3-F244-4158-8C52-213B3364D6AE}">
+													<Language>SFX</Language>
+													<AudioFile>Stone Walk 8.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="161862593"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Stone Walk 8" ID="{0CC8B6D3-F244-4158-8C52-213B3364D6AE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="Water" ID="{7D8ED792-15B2-4800-9689-F596928D7408}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Stone" ID="{2B8709D7-31ED-45B0-B37A-B5BAADF0C720}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Water" ID="{4A908723-A50E-4B80-BA7C-EFD1AE0D5037}"/>
+										<ItemList>
+											<ItemRef Name="Water" ID="{7D8ED792-15B2-4800-9689-F596928D7408}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Stone" ID="{55F257E5-4599-4BE7-A9A0-81BA15948DC2}"/>
+										<ItemList>
+											<ItemRef Name="Stone" ID="{2B8709D7-31ED-45B0-B37A-B5BAADF0C720}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
+					</ChildrenList>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="Run" ID="{179A2B3C-520F-4368-9CDA-C99886D3CEA9}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Walk" ID="{55ECDF4F-2B7E-465E-A58A-7E86FE83CAEE}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+						<GroupingList>
+							<Grouping>
+								<SwitchRef Name="Run" ID="{07321039-4680-41BB-A9BD-11387D7CD8DF}"/>
+								<ItemList>
+									<ItemRef Name="Run" ID="{179A2B3C-520F-4368-9CDA-C99886D3CEA9}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Walk" ID="{FC1CE292-610F-4679-AEA7-4B77E3282524}"/>
+								<ItemList>
+									<ItemRef Name="Walk" ID="{55ECDF4F-2B7E-465E-A58A-7E86FE83CAEE}"/>
+								</ItemList>
+							</Grouping>
+						</GroupingList>
+					</GroupingInfo>
+				</SwitchContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
