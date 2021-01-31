@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F7E960FF-8BA1-4AB7-8DB3-AAAE5B4B1E72}" SchemaVersion="97">
+	<AudioObjects>
+		<WorkUnit Name="Portal" ID="{F7E960FF-8BA1-4AB7-8DB3-AAAE5B4B1E72}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Portal_Shatter" ID="{EB6BFE20-07D7-4D07-B1DA-578F6A6A7505}" ShortID="135110034">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0195AC9F-1BB1-49FF-BE25-7B3624462179}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E12D561-1F56-4EFF-9FE3-2542145B65C9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Portal Break" ID="{27D36B46-3100-4FFA-A8E6-2DA208A0E001}">
+							<Language>SFX</Language>
+							<AudioFile>Portal Break.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="790193195"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Portal Break" ID="{27D36B46-3100-4FFA-A8E6-2DA208A0E001}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

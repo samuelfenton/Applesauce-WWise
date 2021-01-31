@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8A8E17FE-2B7E-485E-9AB5-6457729CBFA0}" SchemaVersion="97" RootDocumentID="{03EF43DC-DEA6-406D-B4E9-DF31631C8BC1}">
+	<Events>
+		<WorkUnit Name="Pistol" ID="{8A8E17FE-2B7E-485E-9AB5-6457729CBFA0}" OwnerID="{03EF43DC-DEA6-406D-B4E9-DF31631C8BC1}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Pistol_Fire" ID="{F5927DC7-EE1F-4B34-916F-FCF541812A73}">
+					<ChildrenList>
+						<Action Name="" ID="{2698E90C-6C0E-4AA1-A64D-F3C7440C8313}" ShortID="279850264">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Pistol_Fire" ID="{9A245231-1F6E-4704-B130-F5860CDF4B72}" WorkUnitID="{3C550748-1707-4C58-A68A-EC63A915697C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Pistol_Empty" ID="{A805FDAD-B3EC-4F01-878B-E8D0F279F327}">
+					<ChildrenList>
+						<Action Name="" ID="{0A5D3337-598A-490E-9751-26834BFA8270}" ShortID="998616167">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Pistol_Empty" ID="{65578989-8A06-4B17-8C8A-A16CFB797D88}" WorkUnitID="{3C550748-1707-4C58-A68A-EC63A915697C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Pistol_Reload" ID="{1C18EB5F-4CF9-4331-BE2E-0A5B287BCAE7}">
+					<ChildrenList>
+						<Action Name="" ID="{0C7975B0-F8C3-4B68-9924-B62436F4723C}" ShortID="7063952">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Pistol_Reload" ID="{4DD3B3CB-8280-461C-A263-D15183DBEE5B}" WorkUnitID="{3C550748-1707-4C58-A68A-EC63A915697C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

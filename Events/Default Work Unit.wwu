@@ -14,6 +14,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<WorkUnit Name="Pistol" ID="{8A8E17FE-2B7E-485E-9AB5-6457729CBFA0}" PersistMode="Reference"/>
+				<Event Name="Portal_Shatter" ID="{CA04743E-E8D5-46FB-8E63-E9E022C23A68}">
+					<ChildrenList>
+						<Action Name="" ID="{7A59F98B-A0E6-4CD7-AE9C-BB2A7FA21AC8}" ShortID="7846863">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Portal_Shatter" ID="{EB6BFE20-07D7-4D07-B1DA-578F6A6A7505}" WorkUnitID="{F7E960FF-8BA1-4AB7-8DB3-AAAE5B4B1E72}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<WorkUnit Name="Player" ID="{AE4140F2-1DB6-4FEB-9C0B-E182181E4C27}" PersistMode="Reference"/>
+				<WorkUnit Name="Enemy" ID="{7158C95A-2EC6-41C5-B54A-301E0AF6077C}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

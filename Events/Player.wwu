@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{AE4140F2-1DB6-4FEB-9C0B-E182181E4C27}" SchemaVersion="97" RootDocumentID="{03EF43DC-DEA6-406D-B4E9-DF31631C8BC1}">
+	<Events>
+		<WorkUnit Name="Player" ID="{AE4140F2-1DB6-4FEB-9C0B-E182181E4C27}" OwnerID="{03EF43DC-DEA6-406D-B4E9-DF31631C8BC1}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Player_Breathing" ID="{02D57093-E353-4E42-A615-2AFE68E65C4F}">
+					<ChildrenList>
+						<Action Name="" ID="{D3C794FB-DA72-4BE3-9A82-E6633B4418E0}" ShortID="313770006">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Player_Breathing" ID="{47F24EF6-921A-4942-96C0-C65F807C6E01}" WorkUnitID="{B685A177-6115-49B2-AB54-8D5ED0589887}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Player_Breathing_Fast" ID="{E62FD4E8-858E-4F19-8418-781B2BCAD01D}">
+					<ChildrenList>
+						<Action Name="" ID="{A9BD9F3B-57A7-4748-B7AD-23FE866BC271}" ShortID="366527293">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Player_Breathing_Fast" ID="{0A0487A6-CEC6-4CF4-9D06-6305990CFF97}" WorkUnitID="{B685A177-6115-49B2-AB54-8D5ED0589887}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

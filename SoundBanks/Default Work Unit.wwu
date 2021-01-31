@@ -3,9 +3,17 @@
 	<SoundBanks>
 		<WorkUnit Name="Default Work Unit" ID="{95BE788A-DC75-4741-8A1E-ED8D12AE1AB4}" PersistMode="Standalone">
 			<ChildrenList>
-				<SoundBank Name="Movement" ID="{6F5D07C0-1711-45F4-A35D-BA90E7846F64}">
+				<SoundBank Name="Main" ID="{84602547-F360-4D80-BECD-53A61DA02559}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Pistol_Reload" ID="{1C18EB5F-4CF9-4331-BE2E-0A5B287BCAE7}" WorkUnitID="{8A8E17FE-2B7E-485E-9AB5-6457729CBFA0}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Footstep" ID="{8D167824-A093-462B-B73D-FBBFABEE4E70}" WorkUnitID="{03EF43DC-DEA6-406D-B4E9-DF31631C8BC1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Portal_Shatter" ID="{CA04743E-E8D5-46FB-8E63-E9E022C23A68}" WorkUnitID="{03EF43DC-DEA6-406D-B4E9-DF31631C8BC1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Enemy_Breathing" ID="{158EF724-4686-47EE-B1A4-FF44C11FF7D3}" WorkUnitID="{7158C95A-2EC6-41C5-B54A-301E0AF6077C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Enemy_Growl" ID="{7681F846-9248-49FA-8F88-C3C60CC0DB74}" WorkUnitID="{7158C95A-2EC6-41C5-B54A-301E0AF6077C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Pistol_Fire" ID="{F5927DC7-EE1F-4B34-916F-FCF541812A73}" WorkUnitID="{8A8E17FE-2B7E-485E-9AB5-6457729CBFA0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Breathing" ID="{02D57093-E353-4E42-A615-2AFE68E65C4F}" WorkUnitID="{AE4140F2-1DB6-4FEB-9C0B-E182181E4C27}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Pistol_Empty" ID="{A805FDAD-B3EC-4F01-878B-E8D0F279F327}" WorkUnitID="{8A8E17FE-2B7E-485E-9AB5-6457729CBFA0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Breathing_Fast" ID="{E62FD4E8-858E-4F19-8418-781B2BCAD01D}" WorkUnitID="{AE4140F2-1DB6-4FEB-9C0B-E182181E4C27}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

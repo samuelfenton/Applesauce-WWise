@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B685A177-6115-49B2-AB54-8D5ED0589887}" SchemaVersion="97">
+	<AudioObjects>
+		<WorkUnit Name="Player" ID="{B685A177-6115-49B2-AB54-8D5ED0589887}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Player_Breathing" ID="{47F24EF6-921A-4942-96C0-C65F807C6E01}" ShortID="70862338">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0195AC9F-1BB1-49FF-BE25-7B3624462179}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E12D561-1F56-4EFF-9FE3-2542145B65C9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Breathing Slow" ID="{52936A06-1DA6-4185-8006-999BA2DE682A}">
+							<Language>SFX</Language>
+							<AudioFile>Breathing Slow.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="46347241"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Breathing Slow" ID="{52936A06-1DA6-4185-8006-999BA2DE682A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Player_Breathing_Fast" ID="{0A0487A6-CEC6-4CF4-9D06-6305990CFF97}" ShortID="234193885">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0195AC9F-1BB1-49FF-BE25-7B3624462179}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E12D561-1F56-4EFF-9FE3-2542145B65C9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Breathing Fast" ID="{B446F7D2-3259-4A76-863C-0B782C2DE1BD}">
+							<Language>SFX</Language>
+							<AudioFile>Breathing Fast.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="672018508"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Breathing Fast" ID="{B446F7D2-3259-4A76-863C-0B782C2DE1BD}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3C550748-1707-4C58-A68A-EC63A915697C}" SchemaVersion="97">
+	<AudioObjects>
+		<WorkUnit Name="Pistol" ID="{3C550748-1707-4C58-A68A-EC63A915697C}" PersistMode="Standalone">
+			<ChildrenList>
+				<RandomSequenceContainer Name="Pistol_Fire" ID="{9A245231-1F6E-4704-B130-F5860CDF4B72}" ShortID="436225032">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0195AC9F-1BB1-49FF-BE25-7B3624462179}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E12D561-1F56-4EFF-9FE3-2542145B65C9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Player Gunshot 1" ID="{A386CA69-0019-43F0-88D4-1404A8CAD4F8}" ShortID="42330790">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0195AC9F-1BB1-49FF-BE25-7B3624462179}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E12D561-1F56-4EFF-9FE3-2542145B65C9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Player Gunshot 1" ID="{25727139-2020-42E1-B928-96FD886A6320}">
+									<Language>SFX</Language>
+									<AudioFile>Player Gunshot 1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="642023048"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Player Gunshot 1" ID="{25727139-2020-42E1-B928-96FD886A6320}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Player Gunshot 2" ID="{85F5368E-B2FB-45E2-83B9-B6B73B44A8ED}" ShortID="600515501">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0195AC9F-1BB1-49FF-BE25-7B3624462179}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E12D561-1F56-4EFF-9FE3-2542145B65C9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Player Gunshot 2" ID="{8A2381B1-EDC7-4E1C-8DEE-3C41420B3FB8}">
+									<Language>SFX</Language>
+									<AudioFile>Player Gunshot 2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="57405784"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Player Gunshot 2" ID="{8A2381B1-EDC7-4E1C-8DEE-3C41420B3FB8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Player Gunshot 3" ID="{79AAEF84-85AC-4FEE-A60F-15D89ECB7DEE}" ShortID="252841306">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0195AC9F-1BB1-49FF-BE25-7B3624462179}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E12D561-1F56-4EFF-9FE3-2542145B65C9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Player Gunshot 3" ID="{0DA1098E-0F92-4DEC-8187-6AA3F3B7FE46}">
+									<Language>SFX</Language>
+									<AudioFile>Player Gunshot 3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1000365624"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Player Gunshot 3" ID="{0DA1098E-0F92-4DEC-8187-6AA3F3B7FE46}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Player Gunshot 4" ID="{E1BD9B30-1319-43CD-898E-9CCC00A8CDDA}" ShortID="1004147405">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0195AC9F-1BB1-49FF-BE25-7B3624462179}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E12D561-1F56-4EFF-9FE3-2542145B65C9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Player Gunshot 4" ID="{1DD5669B-E2CD-4608-893B-438E6702D198}">
+									<Language>SFX</Language>
+									<AudioFile>Player Gunshot 4.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="588305647"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Player Gunshot 4" ID="{1DD5669B-E2CD-4608-893B-438E6702D198}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Player Gunshot 5" ID="{DBE7FEC6-8D07-41B8-BE7C-9A54614DDD98}" ShortID="280862821">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0195AC9F-1BB1-49FF-BE25-7B3624462179}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E12D561-1F56-4EFF-9FE3-2542145B65C9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Player Gunshot 5" ID="{DEC7B7BE-5877-4AFC-BC91-45361DED591A}">
+									<Language>SFX</Language>
+									<AudioFile>Player Gunshot 5.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="435049652"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Player Gunshot 5" ID="{DEC7B7BE-5877-4AFC-BC91-45361DED591A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<Sound Name="Pistol_Empty" ID="{65578989-8A06-4B17-8C8A-A16CFB797D88}" ShortID="655636197">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0195AC9F-1BB1-49FF-BE25-7B3624462179}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E12D561-1F56-4EFF-9FE3-2542145B65C9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Player Dry Fire" ID="{46F42BAB-56B4-4765-8A78-6F76B069F3F4}">
+							<Language>SFX</Language>
+							<AudioFile>Player Dry Fire.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="54167572"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Player Dry Fire" ID="{46F42BAB-56B4-4765-8A78-6F76B069F3F4}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Pistol_Reload" ID="{4DD3B3CB-8280-461C-A263-D15183DBEE5B}" ShortID="227823096">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0195AC9F-1BB1-49FF-BE25-7B3624462179}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E12D561-1F56-4EFF-9FE3-2542145B65C9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Gun Reload" ID="{9507FCF4-85E5-4F4E-99D1-C0475F31CF38}">
+							<Language>SFX</Language>
+							<AudioFile>Gun Reload .wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="182919169"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Gun Reload" ID="{9507FCF4-85E5-4F4E-99D1-C0475F31CF38}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

@@ -3,8 +3,17 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{2EF63B8B-F168-4260-BC0F-0207AFDCE4E8}">
 			<PropertyList>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="Y:\Documents\Ableton Live Files\Eldtrich Horror Game Jam\Creature\Creature Breathing + Growls\Growls\"/>
+				<Property Name="Event Action List\{02D57093-E353-4E42-A615-2AFE68E65C4F}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{158EF724-4686-47EE-B1A4-FF44C11FF7D3}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{1C18EB5F-4CF9-4331-BE2E-0A5B287BCAE7}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{7681F846-9248-49FA-8F88-C3C60CC0DB74}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{8D167824-A093-462B-B73D-FBBFABEE4E70}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{A805FDAD-B3EC-4F01-878B-E8D0F279F327}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{CA04743E-E8D5-46FB-8E63-E9E022C23A68}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{E62FD4E8-858E-4F19-8418-781B2BCAD01D}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{F3A2DD6C-55B6-4AB6-9B59-D4813185FFBD}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{F5927DC7-EE1F-4B34-916F-FCF541812A73}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
@@ -24,7 +33,7 @@
 				<Property Name="General\SourceControlPluginID" Type="string" Value="{C403A906-0C19-4ED5-808E-748707065301}"/>
 				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value="BvDMKA=="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="fmy9WiGStEG7Yye0a82unUXxBOg378xGjEkk4e9ebJ0="/>
-				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="wAddbxEX9EWjXbqQ54RvZA=="/>
+				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="RyVghGDzgE2+zVOmHaAlWQ=="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
@@ -65,6 +74,7 @@
 				<Property Name="ProjectExplorer\x64_Expanded_8_1" Type="string" Value=""/>
 				<Property Name="SoundBank Manager\x64_Expand States" Type="string" Value=""/>
 				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks\"/>
+				<Property Name="SoundBankPathUserOverride" Type="bool" Value="True"/>
 				<Property Name="SoundBankPaths" Type="string">
 					<ValueList>
 						<Value Platform="Mac">GeneratedSoundBanks\Mac\</Value>
