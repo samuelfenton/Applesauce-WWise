@@ -28,6 +28,7 @@
 				</Event>
 				<WorkUnit Name="Player" ID="{AE4140F2-1DB6-4FEB-9C0B-E182181E4C27}" PersistMode="Reference"/>
 				<WorkUnit Name="Enemy" ID="{7158C95A-2EC6-41C5-B54A-301E0AF6077C}" PersistMode="Reference"/>
+				<WorkUnit Name="Music" ID="{E66957A3-FD68-46F5-A3AE-FF1B14C17A98}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

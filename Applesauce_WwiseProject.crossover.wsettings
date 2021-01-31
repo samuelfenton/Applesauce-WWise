@@ -3,13 +3,14 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{2EF63B8B-F168-4260-BC0F-0207AFDCE4E8}">
 			<PropertyList>
-				<Property Name="AudioFilesImporter\Path" Type="string" Value="Y:\Documents\Ableton Live Files\Eldtrich Horror Game Jam\Creature\Creature Breathing + Growls\Growls\"/>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="Y:\Documents\Ableton Live Files\Eldtrich Horror Game Jam\Ambience\"/>
 				<Property Name="Event Action List\{02D57093-E353-4E42-A615-2AFE68E65C4F}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{158EF724-4686-47EE-B1A4-FF44C11FF7D3}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{1C18EB5F-4CF9-4331-BE2E-0A5B287BCAE7}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{7681F846-9248-49FA-8F88-C3C60CC0DB74}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{8D167824-A093-462B-B73D-FBBFABEE4E70}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{A805FDAD-B3EC-4F01-878B-E8D0F279F327}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{AD9699C1-ED6C-48FE-9CF7-2D43F2C7ED56}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{CA04743E-E8D5-46FB-8E63-E9E022C23A68}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{E62FD4E8-858E-4F19-8418-781B2BCAD01D}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{F3A2DD6C-55B6-4AB6-9B59-D4813185FFBD}\x64_Expand States" Type="string" Value=""/>

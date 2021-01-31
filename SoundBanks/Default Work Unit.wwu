@@ -9,6 +9,7 @@
 						<ObjectRef Name="Footstep" ID="{8D167824-A093-462B-B73D-FBBFABEE4E70}" WorkUnitID="{03EF43DC-DEA6-406D-B4E9-DF31631C8BC1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Portal_Shatter" ID="{CA04743E-E8D5-46FB-8E63-E9E022C23A68}" WorkUnitID="{03EF43DC-DEA6-406D-B4E9-DF31631C8BC1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Enemy_Breathing" ID="{158EF724-4686-47EE-B1A4-FF44C11FF7D3}" WorkUnitID="{7158C95A-2EC6-41C5-B54A-301E0AF6077C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambience_Loop" ID="{AD9699C1-ED6C-48FE-9CF7-2D43F2C7ED56}" WorkUnitID="{E66957A3-FD68-46F5-A3AE-FF1B14C17A98}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Enemy_Growl" ID="{7681F846-9248-49FA-8F88-C3C60CC0DB74}" WorkUnitID="{7158C95A-2EC6-41C5-B54A-301E0AF6077C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Pistol_Fire" ID="{F5927DC7-EE1F-4B34-916F-FCF541812A73}" WorkUnitID="{8A8E17FE-2B7E-485E-9AB5-6457729CBFA0}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Player_Breathing" ID="{02D57093-E353-4E42-A615-2AFE68E65C4F}" WorkUnitID="{AE4140F2-1DB6-4FEB-9C0B-E182181E4C27}" Origin="Manual" Filter="7"/>

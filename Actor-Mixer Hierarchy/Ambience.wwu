@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7676D007-4557-491D-AAA1-B6193969FF89}" SchemaVersion="97">
+	<AudioObjects>
+		<WorkUnit Name="Ambience" ID="{7676D007-4557-491D-AAA1-B6193969FF89}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Ambience_Loop" ID="{E9FDBBDE-5095-4906-8E1D-EF6478C6E231}" ShortID="465506230">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0195AC9F-1BB1-49FF-BE25-7B3624462179}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E12D561-1F56-4EFF-9FE3-2542145B65C9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Ambience_Soft" ID="{FCE15D5B-3600-43F1-8988-57CAC0AC7EA7}">
+							<Language>SFX</Language>
+							<AudioFile>Ambience_Soft.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="214191590"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Ambience_Soft" ID="{FCE15D5B-3600-43F1-8988-57CAC0AC7EA7}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
