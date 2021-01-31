@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="263167937">
+		<SoundBank Id="3161908922" Language="SFX" Hash="3662413342">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -278,7 +278,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1068215004" Name="Pistol_Reload" ObjectPath="\Events\Default Work Unit\Pistol\Pistol_Reload" DurationType="OneShot" DurationMin="1.264626" DurationMax="1.264626">
+				<Event Id="1068215004" Name="Pistol_Reload" ObjectPath="\Events\Default Work Unit\Pistol\Pistol_Reload" DurationType="OneShot" DurationMin="1.364626" DurationMax="1.364626">
 					<IncludedMemoryFiles>
 						<File Id="182919169" Language="SFX">
 							<ShortName>Gun Reload .wav</ShortName>

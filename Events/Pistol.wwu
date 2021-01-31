@@ -28,6 +28,19 @@
 				<Event Name="Pistol_Reload" ID="{1C18EB5F-4CF9-4331-BE2E-0A5B287BCAE7}">
 					<ChildrenList>
 						<Action Name="" ID="{0C7975B0-F8C3-4B68-9924-B62436F4723C}" ShortID="7063952">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.1">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{C80B8216-E92A-454F-B8C7-1C31B31393CA}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Pistol_Reload" ID="{4DD3B3CB-8280-461C-A263-D15183DBEE5B}" WorkUnitID="{3C550748-1707-4C58-A68A-EC63A915697C}"/>

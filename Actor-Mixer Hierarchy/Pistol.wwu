@@ -148,6 +148,15 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="Pistol_Reload" ID="{4DD3B3CB-8280-461C-A263-D15183DBEE5B}" ShortID="227823096">
+					<PropertyList>
+						<Property Name="InitialDelay" Type="Real64">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{BE54F612-D73C-4A24-911A-2C020B87DCF3}"/>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0195AC9F-1BB1-49FF-BE25-7B3624462179}"/>
